@@ -7,6 +7,8 @@ export default function Home({ navigation }) {
         <View>
             <Text>Home</Text>
             <Button onPress={() => navigation.navigate("About") } title='About' />
+            <Text>Testing</Text>
+            
         </View>
     )
 }
